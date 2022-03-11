@@ -3,7 +3,7 @@ let ts = '1646960091'; // = Math.floor(Date.now() / 1000)
 const timeStamp = '1646960091';
 const apiKey = "6743e1cbd20007c611988f36076f2ad0";
 const md5 = "b1d69cebf11cebc9858cc290355d1993";
-const limite = 100;
+const limite = 20;
 
 fetch(`http://gateway.marvel.com/v1/public/characters?ts=${timeStamp}&apikey=${apiKey}&hash=${md5}&limit=${limite}`
 ).then((response) => {
@@ -46,21 +46,20 @@ let criar = (srcImage, nameHero, descricao) => {
     img.classList.add("fotoHeroi");
 
     div.classList.add("container");
+
     div.appendChild(nome);
     nome.textContent = nameHero;  
+    nome.classList.add("titulo");
 
     div.appendChild(description)
     description.textContent = descricao;
+    description.classList.add("description")
 
 
     let clicado = () =>{
         img.classList.toggle("imagemClicada");
-        console.log("clicado")
     }
 
     img.addEventListener("click", clicado);
 
 }
-
-
-

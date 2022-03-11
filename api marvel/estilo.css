@@ -1,10 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: helvetica;
+    line-height: 1.5rem;
 }
 
 .content{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -12,18 +15,35 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 400px;
-    height: 700px;
-    overflow: hidden;
+    height: 600px;
+    overflow:scroll;
+    scrollbar-width: none;
     border: solid 1px black;
+    border-radius: 10px;
+    margin: 17px;
+    padding: 10px;
 }
 
 .fotoHeroi{
-    width: 230px;
+    width: 320px;
+    transition: .7s;
+    border-radius: 50%;
+}
+
+
+.description{
+    width: 80%;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 20px;
 }
 
 .imagemClicada{
-    width: 320px;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    border-radius: 0px;
 }
