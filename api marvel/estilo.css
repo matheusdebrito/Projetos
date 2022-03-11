@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    overflow: hidden;
+    border: solid 1px black;
+}
+
+.fotoHeroi{
+    width: 230px;
+}
+
+.imagemClicada{
+    width: 320px;
+}
