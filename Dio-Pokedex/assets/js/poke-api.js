@@ -19,7 +19,7 @@ const convertPokeApiDetailToPokemon = (pokeDetail) => {
 pokeApi.getPokemonDetail = (pokemon) => {
     return fetch(pokemon.url)
             .then((response) => response.json())
-            .then(convertPokeApiDetailToPokemon)
+            // .then(convertPokeApiDetailToPokemon)
 }
 
 pokeApi.getPokemons = (offset = 0, limit = 5) => {
@@ -28,6 +28,8 @@ pokeApi.getPokemons = (offset = 0, limit = 5) => {
         .then((response) => response.json())
         .then((jsonBody) => jsonBody.results)
         .then((pokemons) => pokemons.map(pokeApi.getPokemonDetail))
-        .then((detailRequests) => Promise.all(detailRequests))
-        .then((pokemonsDetails) => pokemonsDetails)
+        .then((detailRequests) => Promise.all (detailRequests))
+        .then((response) => console.log(response))
+        // .then((detailRequests) => Promise.all(detailRequests))
+        // .then((pokemonsDetails) => pokemonsDetails)
 }
