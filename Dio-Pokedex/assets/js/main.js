@@ -4,7 +4,7 @@ const loadMoreButton = document.querySelector("#loadMoreButton")
 const maxRecords = 151
 const limit = 6
 let offset = 0
-let qtdPokemons = 2
+let qtdPokemons = limit
 
 
 let totalStats = (pokemon) => {
