@@ -1,0 +1,25 @@
+.container_small_card{
+  border-bottom: solid 2px lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 33%;
+  padding: .2rem 0rem;
+  margin-bottom: .5rem;
+}
+
+.small_card_photo{
+  width: 25%;
+}
+
+.small_card_photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.small_card_title{
+  width: 75%;
+  padding-left:1rem;
+  text-align: left;
+}

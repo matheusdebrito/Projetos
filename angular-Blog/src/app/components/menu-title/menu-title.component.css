@@ -1,0 +1,11 @@
+.container_menu_title h1{
+  border-top: solid 2px lightgray;
+  border-bottom: solid 2px lightgray;
+  margin: .5rem 0rem;
+  font-size: 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -4,5 +4,11 @@
   padding: 0px;
   box-sizing: border-box;
   background-color: #111111;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  width: 100%;
 }
 

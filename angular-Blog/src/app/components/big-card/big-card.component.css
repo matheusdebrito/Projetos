@@ -1,0 +1,23 @@
+.container_big_card{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.big_card_photo{
+  width: 100%;
+  display: flex;
+  justify-content: center
+}
+
+.big_card_title{
+  font-size: .8rem;
+  margin: 1rem 0rem;
+  width: 97%;
+
+}
+
+a {text-decoration: none;}
