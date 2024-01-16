@@ -1,0 +1,10 @@
+@media screen and(max-width: 600px) {
+  .container_big_card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

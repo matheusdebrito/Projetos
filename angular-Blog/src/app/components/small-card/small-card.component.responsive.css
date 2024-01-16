@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px){
+  .container_small_card{
+    padding: .4rem;
+  }
+  .small_card_title{
+    font-size: .6rem;
+  }
+}
