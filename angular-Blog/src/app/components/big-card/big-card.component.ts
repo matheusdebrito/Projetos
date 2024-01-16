@@ -12,6 +12,8 @@ export class BigCardComponent {
   cardTitle:string = "TITULO"
   @Input()
   cardDescription:string = "DESCRIÇÃO"
+  @Input()
+  id:string = "0"
 
   constructor(){}
 }

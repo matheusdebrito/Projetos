@@ -20,4 +20,8 @@
 
 }
 
-a {text-decoration: none;}
+a {text-decoration: none; width: 100%;}
+
+img{
+  width: 100%;
+}
